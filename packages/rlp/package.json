@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/logger": "^5.0.5"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/logger": "^5.0.6"
   },
   "description": "Recursive-Length Prefix (RLP) coder.",
   "ethereum": "donations.ethers.eth",
@@ -27,5 +27,5 @@
   },
   "tarballHash": "0x178c8656e524b8bc4d80b3cfc2a8864f8877f290102fbcc70f9e984f72905ece",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

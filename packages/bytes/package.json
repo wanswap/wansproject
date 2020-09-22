@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/logger": "^5.0.5"
+    "@wansproject/logger": "^5.0.6"
   },
   "description": "Bytes utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -27,5 +27,5 @@
   },
   "tarballHash": "0xee83e8e9c5e36c2746fb9b844716e41ff89bfdc17d015f488b50d7c7078d6061",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

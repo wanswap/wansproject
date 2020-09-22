@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bignumber": "^5.0.7"
+    "@wansproject/bignumber": "^5.0.8"
   },
   "description": "Common Ethereum constants used for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -25,5 +25,5 @@
   },
   "tarballHash": "0xd3cc57bbcc209ae906d46b657834178d6756141e48ac9090db5fad61a0a1e0fe",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

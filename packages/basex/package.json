@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/properties": "^5.0.3"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/properties": "^5.0.4"
   },
   "description": "Base-X without Buffer.",
   "ethereum": "donations.ethers.eth",
@@ -26,5 +26,5 @@
   },
   "tarballHash": "0x105e394fa81fc66bfbfb2a8892ab7c85696b725514cc38e480816472f7841106",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

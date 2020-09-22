@@ -13,12 +13,12 @@
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {
-    "@wansproject/bignumber": "^5.0.7",
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/keccak256": "^5.0.3",
-    "@wansproject/strings": "^5.0.4",
+    "@wansproject/bignumber": "^5.0.8",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/keccak256": "^5.0.4",
+    "@wansproject/strings": "^5.0.5",
     "browserify-zlib": "^0.2.0",
-    "ethers": "^5.0.13"
+    "ethers": "^5.0.16"
   },
   "description": "Testcases for Ethereum and scripts to generate testcases.",
   "ethereum": "donations.ethers.eth",
@@ -42,5 +42,5 @@
   },
   "tarballHash": "0x9aaaec9bef3c461c7b6488622b4ba2fe82e868951441ac84b412e6811ea63bcd",
   "types": "./lib/index.d.ts",
-  "version": "5.0.5"
+  "version": "5.0.6"
 }

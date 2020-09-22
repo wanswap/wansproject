@@ -1,15 +1,15 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/abi": "^5.0.5",
-    "@wansproject/abstract-provider": "^5.0.4",
-    "@wansproject/abstract-signer": "^5.0.4",
-    "@wansproject/address": "^5.0.4",
-    "@wansproject/bignumber": "^5.0.7",
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/constants": "^5.0.4",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/properties": "^5.0.3"
+    "@wansproject/abi": "^5.0.6",
+    "@wansproject/abstract-provider": "^5.0.5",
+    "@wansproject/abstract-signer": "^5.0.6",
+    "@wansproject/address": "^5.0.5",
+    "@wansproject/bignumber": "^5.0.8",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/constants": "^5.0.5",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/properties": "^5.0.4"
   },
   "description": "Contract abstraction meta-class for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -33,5 +33,5 @@
   },
   "tarballHash": "0x5045c5461861c785e8fe1169520c0715118aaad272db8ac7662afeb3a1fbc94c",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

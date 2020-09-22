@@ -1,18 +1,18 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/abstract-signer": "^5.0.4",
-    "@wansproject/basex": "^5.0.3",
-    "@wansproject/bignumber": "^5.0.7",
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/pbkdf2": "^5.0.3",
-    "@wansproject/properties": "^5.0.3",
-    "@wansproject/sha2": "^5.0.3",
-    "@wansproject/signing-key": "^5.0.4",
-    "@wansproject/strings": "^5.0.4",
-    "@wansproject/transactions": "^5.0.5",
-    "@wansproject/wordlists": "^5.0.4"
+    "@wansproject/abstract-signer": "^5.0.6",
+    "@wansproject/basex": "^5.0.4",
+    "@wansproject/bignumber": "^5.0.8",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/pbkdf2": "^5.0.4",
+    "@wansproject/properties": "^5.0.4",
+    "@wansproject/sha2": "^5.0.4",
+    "@wansproject/signing-key": "^5.0.5",
+    "@wansproject/strings": "^5.0.5",
+    "@wansproject/transactions": "^5.0.6",
+    "@wansproject/wordlists": "^5.0.5"
   },
   "description": "BIP32 Hierarchal Deterministic Node operations.",
   "ethereum": "donations.ethers.eth",
@@ -36,5 +36,5 @@
   },
   "tarballHash": "0x3f234143e01ab533b9156c1b766829308a9e8cbea4a5d6107e11f16cbf96a525",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

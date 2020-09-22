@@ -29,5 +29,5 @@
   },
   "tarballHash": "0x798bb4ac73f2ea8d4a5dd89c7782cb5e13d2a7a159eac1ec0b35626aa367aa6a",
   "types": "./lib/index.d.ts",
-  "version": "5.0.5"
+  "version": "5.0.6"
 }

@@ -4,8 +4,8 @@
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/sha2": "^5.0.3"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/sha2": "^5.0.4"
   },
   "description": "The PBKDF2 password-pbased key derivation function for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -30,5 +30,5 @@
   },
   "tarballHash": "0x24ad7539d1fef44a4fc7f16f93fa7f41d191310f9d604d7e073817353fb1388e",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

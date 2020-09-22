@@ -1,15 +1,15 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/address": "^5.0.4",
-    "@wansproject/bignumber": "^5.0.7",
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/constants": "^5.0.4",
-    "@wansproject/keccak256": "^5.0.3",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/properties": "^5.0.3",
-    "@wansproject/rlp": "^5.0.3",
-    "@wansproject/signing-key": "^5.0.4"
+    "@wansproject/address": "^5.0.5",
+    "@wansproject/bignumber": "^5.0.8",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/constants": "^5.0.5",
+    "@wansproject/keccak256": "^5.0.4",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/properties": "^5.0.4",
+    "@wansproject/rlp": "^5.0.4",
+    "@wansproject/signing-key": "^5.0.5"
   },
   "description": "Utilities for decoding and encoding Ethereum transaction for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -33,5 +33,5 @@
   },
   "tarballHash": "0x2f2d14e4eb4e3ee517ad374c344d428687d0ef8ae6b27469a6c6827a1037086b",
   "types": "./lib/index.d.ts",
-  "version": "5.0.5"
+  "version": "5.0.6"
 }

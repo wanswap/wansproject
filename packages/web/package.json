@@ -10,11 +10,11 @@
     "./lib/geturl": "./lib/browser-geturl.js"
   },
   "dependencies": {
-    "@wansproject/base64": "^5.0.3",
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/properties": "^5.0.3",
-    "@wansproject/strings": "^5.0.4"
+    "@wansproject/base64": "^5.0.4",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/properties": "^5.0.4",
+    "@wansproject/strings": "^5.0.5"
   },
   "description": "Utility fucntions for managing web requests for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -38,5 +38,5 @@
   },
   "tarballHash": "0x81eaacde8178307e37c9be5fa8addd2e1be73c3b3984f6abaaa8b5fd0fb8e153",
   "types": "./lib/index.d.ts",
-  "version": "5.0.7"
+  "version": "5.0.8"
 }

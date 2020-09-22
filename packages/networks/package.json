@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/logger": "^5.0.5"
+    "@wansproject/logger": "^5.0.6"
   },
   "description": "Network definitions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -25,5 +25,5 @@
   },
   "tarballHash": "0x58e69ab415ca10930a042729d643f99f5f69b7cfd027d2d0defa297f943d5679",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

@@ -9,9 +9,9 @@
   "dependencies": {
     "@babel/parser": "7.8.4",
     "@babel/types": "7.8.3",
-    "@wansproject/asm": "^5.0.5",
-    "@wansproject/basex": "^5.0.3",
-    "ethers": "^5.0.13",
+    "@wansproject/asm": "^5.0.6",
+    "@wansproject/basex": "^5.0.4",
+    "ethers": "^5.0.16",
     "mime-types": "2.1.11",
     "scrypt-js": "3.0.1",
     "solc": "0.5.10",
@@ -43,5 +43,5 @@
   },
   "tarballHash": "0xa631726bbb40eb541138a2b35dbe0df74a62242883bbd41c6cd49f675acc945d",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

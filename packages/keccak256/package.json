@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/bytes": "^5.0.5",
     "js-sha3": "0.5.7"
   },
   "description": "The keccak256 hash function for ethers.",
@@ -26,5 +26,5 @@
   },
   "tarballHash": "0x16cc22a6fd10a0864eee3454c9c97ce5cb60944ee4c0d05e3431507847cd44d1",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

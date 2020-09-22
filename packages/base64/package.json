@@ -4,7 +4,7 @@
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4"
+    "@wansproject/bytes": "^5.0.5"
   },
   "description": "Base64 coder.",
   "ethereum": "donations.ethers.eth",
@@ -28,5 +28,5 @@
   },
   "tarballHash": "0xa613849a233dc3e676a72e200e53b09fc03809b03c54f9bd29669127d79b5f0d",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

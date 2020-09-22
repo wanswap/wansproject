@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@types/mocha": "^5.2.0",
-    "@wansproject/cli": "^5.0.4",
-    "@wansproject/testcases": "^5.0.5",
-    "ethers": "^5.0.13"
+    "@wansproject/cli": "^5.0.5",
+    "@wansproject/testcases": "^5.0.6",
+    "ethers": "^5.0.16"
   },
   "description": "Testing package for ethers.",
   "devDependencies": {
@@ -41,5 +41,5 @@
   },
   "tarballHash": "0xd4d7847e712a5d30cd6bc1923f39e799b7934d9713408c947d8ebbbe27b04ce4",
   "types": "./lib/index.d.ts",
-  "version": "5.0.8"
+  "version": "5.0.9"
 }

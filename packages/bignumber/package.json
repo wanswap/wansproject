@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/logger": "^5.0.5",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/logger": "^5.0.6",
     "bn.js": "^4.4.0"
   },
   "description": "BigNumber library used in ethers.js.",
@@ -28,5 +28,5 @@
   },
   "tarballHash": "0x331598df44686bdbe05cc769db3d067804668fb87cdb5a75819546cc621a9492",
   "types": "./lib/index.d.ts",
-  "version": "5.0.7"
+  "version": "5.0.8"
 }

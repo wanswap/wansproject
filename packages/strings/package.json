@@ -1,9 +1,9 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/constants": "^5.0.4",
-    "@wansproject/logger": "^5.0.5"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/constants": "^5.0.5",
+    "@wansproject/logger": "^5.0.6"
   },
   "description": "String utility functions.",
   "ethereum": "donations.ethers.eth",
@@ -29,5 +29,5 @@
   },
   "tarballHash": "0x7e62547655aa3ee4ff22d1d94090e26974d03588f6776a3b975fa4aae0d7fee5",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

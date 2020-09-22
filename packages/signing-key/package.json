@@ -1,9 +1,9 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/properties": "^5.0.3",
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/properties": "^5.0.4",
     "elliptic": "6.5.3"
   },
   "description": "Elliptic curve library functions for the secp256k1 curve.",
@@ -28,5 +28,5 @@
   },
   "tarballHash": "0x78edf72b9a6cd523e840cb2cf7ccc112173f47c62c137b63344c91279e4a4923",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

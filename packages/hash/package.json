@@ -1,10 +1,10 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/keccak256": "^5.0.3",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/strings": "^5.0.4"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/keccak256": "^5.0.4",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/strings": "^5.0.5"
   },
   "description": "Hash utility functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -28,5 +28,5 @@
   },
   "tarballHash": "0x6d01a5d8089fab241baaba837f7ea571840383ed4968dafb1fda25efb93d0017",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

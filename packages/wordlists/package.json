@@ -4,11 +4,11 @@
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/hash": "^5.0.4",
-    "@wansproject/logger": "^5.0.5",
-    "@wansproject/properties": "^5.0.3",
-    "@wansproject/strings": "^5.0.4"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/hash": "^5.0.5",
+    "@wansproject/logger": "^5.0.6",
+    "@wansproject/properties": "^5.0.4",
+    "@wansproject/strings": "^5.0.5"
   },
   "description": "Word lists for BIP39 wallets.",
   "ethereum": "donations.ethers.eth",
@@ -32,5 +32,5 @@
   },
   "tarballHash": "0x2455f8ca3090df6405bb8d7ec9a89ab4714d36e7792941fc44b985df06c4b786",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

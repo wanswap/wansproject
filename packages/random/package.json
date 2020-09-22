@@ -4,8 +4,8 @@
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {
-    "@wansproject/bytes": "^5.0.4",
-    "@wansproject/logger": "^5.0.5"
+    "@wansproject/bytes": "^5.0.5",
+    "@wansproject/logger": "^5.0.6"
   },
   "description": "Random utility functions for ethers.",
   "devDependencies": {
@@ -33,5 +33,5 @@
   },
   "tarballHash": "0xb735a3f1dbf2350ad73ea96191944f4d6c1966afeea7781b29aecc27c2212c61",
   "types": "./lib/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }
