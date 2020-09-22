@@ -1,9 +1,9 @@
 {
-  "name": "ethers",
+  "name": "ethers-wan-5",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "postinstall": "npm run bootstrap",
@@ -38,7 +38,8 @@
     "upload-docs": " node ./admin/cmds/upload-docs.js",
     "spell-check": "node admin/cmds/spell-check.js",
     "_admin_prepare": "npm run clean && npm run bootstrap && npm run build && node ./admin/cmds/update-exports.js",
-    "update-versions": "npm run spell-check && npm run _admin_prepare && node ./admin/cmds/update-versions",
+    "update-versions": "npm run _admin_prepare && node ./admin/cmds/update-versions",
+    "update-versions_old": "npm run spell-check && npm run _admin_prepare && node ./admin/cmds/update-versions",
     "publish-all": "node ./admin/cmds/publish",
     "sync-github": "node ./admin/cmds/cache-github"
   },

@@ -1,5 +1,5 @@
 "use strict";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "../_version";
 const logger = new Logger(version);
 import { Coder, Writer } from "./abstract-coder";

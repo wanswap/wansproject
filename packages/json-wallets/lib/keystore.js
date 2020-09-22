@@ -61,16 +61,16 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var aes_js_1 = __importDefault(require("aes-js"));
 var scrypt = __importStar(require("scrypt-js"));
-var address_1 = require("@ethersproject/address");
-var bytes_1 = require("@ethersproject/bytes");
-var hdnode_1 = require("@ethersproject/hdnode");
-var keccak256_1 = require("@ethersproject/keccak256");
-var pbkdf2_1 = require("@ethersproject/pbkdf2");
-var random_1 = require("@ethersproject/random");
-var properties_1 = require("@ethersproject/properties");
-var transactions_1 = require("@ethersproject/transactions");
+var address_1 = require("@wansproject/address");
+var bytes_1 = require("@wansproject/bytes");
+var hdnode_1 = require("@wansproject/hdnode");
+var keccak256_1 = require("@wansproject/keccak256");
+var pbkdf2_1 = require("@wansproject/pbkdf2");
+var random_1 = require("@wansproject/random");
+var properties_1 = require("@wansproject/properties");
+var transactions_1 = require("@wansproject/transactions");
 var utils_1 = require("./utils");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 // Exported Types

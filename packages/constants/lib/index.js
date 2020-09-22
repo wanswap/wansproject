@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var bignumber_1 = require("@ethersproject/bignumber");
+var bignumber_1 = require("@wansproject/bignumber");
 var AddressZero = "0x0000000000000000000000000000000000000000";
 exports.AddressZero = AddressZero;
 var HashZero = "0x0000000000000000000000000000000000000000000000000000000000000000";

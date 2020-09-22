@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { arrayify } from "@ethersproject/bytes";
+import { arrayify } from "@wansproject/bytes";
 export function getUrl(href, options) {
     return __awaiter(this, void 0, void 0, function* () {
         if (options == null) {

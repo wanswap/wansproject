@@ -10,9 +10,9 @@
     "ethers": "./lib/browser-ethers.js"
   },
   "dependencies": {
-    "@ethersproject/cli": "^5.0.4",
-    "@ethersproject/testcases": "^5.0.5",
     "@types/mocha": "^5.2.0",
+    "@wansproject/cli": "^5.0.4",
+    "@wansproject/testcases": "^5.0.5",
     "ethers": "^5.0.13"
   },
   "description": "Testing package for ethers.",
@@ -28,18 +28,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/tests",
+  "name": "@wansproject/tests",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "exit 1"
   },
-  "tarballHash": "0xeba001b6d7814b9df776d8a5b395ba7080d99ea8a6dfc8fad70888a5f7d01f3e",
+  "tarballHash": "0xd4d7847e712a5d30cd6bc1923f39e799b7934d9713408c947d8ebbbe27b04ce4",
   "types": "./lib/index.d.ts",
   "version": "5.0.8"
 }

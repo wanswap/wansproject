@@ -19,7 +19,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 // See: https://github.com/ethers-io/ethers.js/issues/427
 var ethers_1 = require("ethers");
-var web_1 = require("@ethersproject/web");
+var web_1 = require("@wansproject/web");
 var _version_1 = require("./_version");
 var logger = new ethers_1.ethers.utils.Logger(_version_1.version);
 var RetryProvider = /** @class */ (function (_super) {

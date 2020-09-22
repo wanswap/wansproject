@@ -10,11 +10,11 @@
     "./lib/geturl": "./lib/browser-geturl.js"
   },
   "dependencies": {
-    "@ethersproject/base64": "^5.0.3",
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/logger": "^5.0.5",
-    "@ethersproject/properties": "^5.0.3",
-    "@ethersproject/strings": "^5.0.4"
+    "@wansproject/base64": "^5.0.3",
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/logger": "^5.0.5",
+    "@wansproject/properties": "^5.0.3",
+    "@wansproject/strings": "^5.0.4"
   },
   "description": "Utility fucntions for managing web requests for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -25,18 +25,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/web",
+  "name": "@wansproject/web",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x1f274a77544d4f64d2f8a10c084670396dba509920a9fc5dbca2e321c7dde98d",
+  "tarballHash": "0x81eaacde8178307e37c9be5fa8addd2e1be73c3b3984f6abaaa8b5fd0fb8e153",
   "types": "./lib/index.d.ts",
   "version": "5.0.7"
 }

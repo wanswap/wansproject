@@ -2,16 +2,16 @@
 
 // See: https://github.com/ethereum/wiki/wiki/JSON-RPC
 
-import { Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { Signer } from "@ethersproject/abstract-signer";
-import { BigNumber } from "@ethersproject/bignumber";
-import { Bytes, hexlify, hexValue } from "@ethersproject/bytes";
-import { Network, Networkish } from "@ethersproject/networks";
-import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
-import { toUtf8Bytes } from "@ethersproject/strings";
-import { ConnectionInfo, fetchJson, poll } from "@ethersproject/web";
+import { Provider, TransactionRequest, TransactionResponse } from "@wansproject/abstract-provider";
+import { Signer } from "@wansproject/abstract-signer";
+import { BigNumber } from "@wansproject/bignumber";
+import { Bytes, hexlify, hexValue } from "@wansproject/bytes";
+import { Network, Networkish } from "@wansproject/networks";
+import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@wansproject/properties";
+import { toUtf8Bytes } from "@wansproject/strings";
+import { ConnectionInfo, fetchJson, poll } from "@wansproject/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

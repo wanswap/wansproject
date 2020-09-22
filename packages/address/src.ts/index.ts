@@ -3,12 +3,12 @@
 // We use this for base 36 maths
 import { BN } from "bn.js";
 
-import { arrayify, BytesLike, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@ethersproject/bytes";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { keccak256 } from "@ethersproject/keccak256";
-import { encode } from "@ethersproject/rlp";
+import { arrayify, BytesLike, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@wansproject/bytes";
+import { BigNumber, BigNumberish } from "@wansproject/bignumber";
+import { keccak256 } from "@wansproject/keccak256";
+import { encode } from "@wansproject/rlp";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

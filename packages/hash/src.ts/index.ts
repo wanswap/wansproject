@@ -1,10 +1,10 @@
 "use strict";
 
-import { Bytes, concat, hexlify } from "@ethersproject/bytes";
-import { nameprep, toUtf8Bytes } from "@ethersproject/strings";
-import { keccak256 } from "@ethersproject/keccak256";
+import { Bytes, concat, hexlify } from "@wansproject/bytes";
+import { nameprep, toUtf8Bytes } from "@wansproject/strings";
+import { keccak256 } from "@wansproject/keccak256";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

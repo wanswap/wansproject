@@ -3,6 +3,10 @@ Changelog
 
 This change log is managed by `admin/cmds/update-versions` but may be manually updated.
 
+ethers/v5.0.15 (2020-09-22 10:20)
+---------------------------------
+
+
 ethers/v5.0.14 (2020-09-16 02:39)
 ---------------------------------
 

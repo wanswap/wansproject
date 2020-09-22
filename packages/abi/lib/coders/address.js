@@ -13,8 +13,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var address_1 = require("@ethersproject/address");
-var bytes_1 = require("@ethersproject/bytes");
+var address_1 = require("@wansproject/address");
+var bytes_1 = require("@wansproject/bytes");
 var abstract_coder_1 = require("./abstract-coder");
 var AddressCoder = /** @class */ (function (_super) {
     __extends(AddressCoder, _super);

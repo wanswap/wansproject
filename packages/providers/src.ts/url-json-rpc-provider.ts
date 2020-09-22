@@ -1,11 +1,11 @@
 
 "use strict";
 
-import { Network, Networkish } from "@ethersproject/networks";
-import { defineReadOnly, getStatic } from "@ethersproject/properties";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network, Networkish } from "@wansproject/networks";
+import { defineReadOnly, getStatic } from "@wansproject/properties";
+import { ConnectionInfo } from "@wansproject/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

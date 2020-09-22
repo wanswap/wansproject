@@ -36,11 +36,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var base64_1 = require("@ethersproject/base64");
-var bytes_1 = require("@ethersproject/bytes");
-var properties_1 = require("@ethersproject/properties");
-var strings_1 = require("@ethersproject/strings");
-var logger_1 = require("@ethersproject/logger");
+var base64_1 = require("@wansproject/base64");
+var bytes_1 = require("@wansproject/bytes");
+var properties_1 = require("@wansproject/properties");
+var strings_1 = require("@wansproject/strings");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var geturl_1 = require("./geturl");

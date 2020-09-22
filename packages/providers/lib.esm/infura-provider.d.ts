@@ -1,5 +1,5 @@
-import { Network, Networkish } from "@ethersproject/networks";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network, Networkish } from "@wansproject/networks";
+import { ConnectionInfo } from "@wansproject/web";
 import { WebSocketProvider } from "./websocket-provider";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 export declare class InfuraProvider extends UrlJsonRpcProvider {

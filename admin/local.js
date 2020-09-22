@@ -65,7 +65,7 @@ async function updatePackage(dirname, values) {
     ["dependencies", "devDependencies"].forEach((key) => {
         let deps = info[key] || [];
         for (let name in deps) {
-            if (name.substring(0, "@ethersproject".length) === "@ethersproject" || name === "ethers") {
+            if (name.substring(0, "@wansproject".length) === "@wansproject" || name === "ethers") {
                 deps[name] = ">5.0.0-beta.0";
             }
         }

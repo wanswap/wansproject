@@ -26,7 +26,7 @@ const {
     getContractAddress,
     getCreate2Address
 
-} = require("@ethersproject/address");
+} = require("@wansproject/address");
 ```
 
 License

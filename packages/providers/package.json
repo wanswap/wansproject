@@ -16,23 +16,23 @@
     "ws": "./lib/browser-ws.js"
   },
   "dependencies": {
-    "@ethersproject/abstract-provider": "^5.0.4",
-    "@ethersproject/abstract-signer": "^5.0.4",
-    "@ethersproject/address": "^5.0.4",
-    "@ethersproject/basex": "^5.0.3",
-    "@ethersproject/bignumber": "^5.0.7",
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/constants": "^5.0.4",
-    "@ethersproject/hash": "^5.0.4",
-    "@ethersproject/logger": "^5.0.5",
-    "@ethersproject/networks": "^5.0.3",
-    "@ethersproject/properties": "^5.0.3",
-    "@ethersproject/random": "^5.0.3",
-    "@ethersproject/rlp": "^5.0.3",
-    "@ethersproject/sha2": "^5.0.3",
-    "@ethersproject/strings": "^5.0.4",
-    "@ethersproject/transactions": "^5.0.5",
-    "@ethersproject/web": "^5.0.6",
+    "@wansproject/abstract-provider": "^5.0.4",
+    "@wansproject/abstract-signer": "^5.0.4",
+    "@wansproject/address": "^5.0.4",
+    "@wansproject/basex": "^5.0.3",
+    "@wansproject/bignumber": "^5.0.7",
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/constants": "^5.0.4",
+    "@wansproject/hash": "^5.0.4",
+    "@wansproject/logger": "^5.0.5",
+    "@wansproject/networks": "^5.0.3",
+    "@wansproject/properties": "^5.0.3",
+    "@wansproject/random": "^5.0.3",
+    "@wansproject/rlp": "^5.0.3",
+    "@wansproject/sha2": "^5.0.3",
+    "@wansproject/strings": "^5.0.4",
+    "@wansproject/transactions": "^5.0.5",
+    "@wansproject/web": "^5.0.6",
     "bech32": "1.1.4",
     "ws": "7.2.3"
   },
@@ -48,18 +48,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/providers",
+  "name": "@wansproject/providers",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x2437a85e3c64aeff5af6d691b30c19bded65bafac5cbee29ff05c341584d9b03",
+  "tarballHash": "0x0cdb16bd09e119cf932510bc52829ff8bb25766522386046cbadb1f660233870",
   "types": "./lib/index.d.ts",
   "version": "5.0.9"
 }

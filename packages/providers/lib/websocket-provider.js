@@ -53,10 +53,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var ws_1 = __importDefault(require("ws"));
-var bignumber_1 = require("@ethersproject/bignumber");
-var properties_1 = require("@ethersproject/properties");
+var bignumber_1 = require("@wansproject/bignumber");
+var properties_1 = require("@wansproject/properties");
 var json_rpc_provider_1 = require("./json-rpc-provider");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 /**

@@ -29,7 +29,7 @@ const {
     WeiPerEther,
     MaxUint256
 
-} = require("@ethersproject/constants");
+} = require("@wansproject/constants");
 ```
 
 

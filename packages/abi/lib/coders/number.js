@@ -13,8 +13,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var bignumber_1 = require("@ethersproject/bignumber");
-var constants_1 = require("@ethersproject/constants");
+var bignumber_1 = require("@wansproject/bignumber");
+var constants_1 = require("@wansproject/constants");
 var abstract_coder_1 = require("./abstract-coder");
 var NumberCoder = /** @class */ (function (_super) {
     __extends(NumberCoder, _super);

@@ -4,7 +4,7 @@ _section: Getting Started @<getting-started>
 _subsection: Installing @<installing>
 
 Ethers' various Classes and Functions are available to import
-manually from sub-packages under the [@ethersproject](link-ethers-npm)
+manually from sub-packages under the [@wansproject](link-ethers-npm)
 organization but for most projects, the umbrella package is the
 easiest way to get started.
 

@@ -1,5 +1,5 @@
 "use strict";
-import { BigNumber } from "@ethersproject/bignumber";
+import { BigNumber } from "@wansproject/bignumber";
 const AddressZero = "0x0000000000000000000000000000000000000000";
 const HashZero = "0x0000000000000000000000000000000000000000000000000000000000000000";
 // NFKC (composed)             // (decomposed)

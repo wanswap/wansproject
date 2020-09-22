@@ -37,7 +37,7 @@ const {
 
     EncryptOptions
 
-} = require("@ethersproject/json-wallets");
+} = require("@wansproject/json-wallets");
 ```
 
 

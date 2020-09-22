@@ -19,7 +19,7 @@ const {
 
     keccak256
 
-} = require("@ethersproject/keccak256");
+} = require("@wansproject/keccak256");
 ```
 
 

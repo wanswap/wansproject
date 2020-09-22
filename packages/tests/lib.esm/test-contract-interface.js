@@ -1,7 +1,7 @@
 'use strict';
 import assert from "assert";
 import { ethers } from "ethers";
-import { loadTests } from "@ethersproject/testcases";
+import { loadTests } from "@wansproject/testcases";
 const bnify = ethers.BigNumber.from;
 function equals(actual, expected) {
     // Array (treat recursively)

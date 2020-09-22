@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var strings_1 = require("@ethersproject/strings");
+var strings_1 = require("@wansproject/strings");
 var wordlist_1 = require("./wordlist");
 var data = [
     "OYAa",

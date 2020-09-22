@@ -11,7 +11,7 @@ const { log } = require("../log");
 
     dirnames.forEach((dirname) => {
         let info = loadPackage(dirname);
-        if (info.name.split("/")[0] === "@ethersproject" || info.name === "ethers") {
+        if (info.name.split("/")[0] === "@wansproject" || info.name === "ethers") {
             versions[info.name] = info.version;
         }
     });

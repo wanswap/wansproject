@@ -49,14 +49,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var abstract_provider_1 = require("@ethersproject/abstract-provider");
-var bignumber_1 = require("@ethersproject/bignumber");
-var bytes_1 = require("@ethersproject/bytes");
-var properties_1 = require("@ethersproject/properties");
-var random_1 = require("@ethersproject/random");
-var web_1 = require("@ethersproject/web");
+var abstract_provider_1 = require("@wansproject/abstract-provider");
+var bignumber_1 = require("@wansproject/bignumber");
+var bytes_1 = require("@wansproject/bytes");
+var properties_1 = require("@wansproject/properties");
+var random_1 = require("@wansproject/random");
+var web_1 = require("@wansproject/web");
 var base_provider_1 = require("./base-provider");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 function now() { return (new Date()).getTime(); }

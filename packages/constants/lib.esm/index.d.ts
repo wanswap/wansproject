@@ -1,4 +1,4 @@
-import { BigNumber } from "@ethersproject/bignumber";
+import { BigNumber } from "@wansproject/bignumber";
 declare const AddressZero = "0x0000000000000000000000000000000000000000";
 declare const HashZero = "0x0000000000000000000000000000000000000000000000000000000000000000";
 declare const EtherSymbol = "\u039E";

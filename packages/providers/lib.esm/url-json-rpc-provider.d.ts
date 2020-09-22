@@ -1,5 +1,5 @@
-import { Network, Networkish } from "@ethersproject/networks";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network, Networkish } from "@wansproject/networks";
+import { ConnectionInfo } from "@wansproject/web";
 import { JsonRpcProvider, JsonRpcSigner } from "./json-rpc-provider";
 export declare class StaticJsonRpcProvider extends JsonRpcProvider {
     detectNetwork(): Promise<Network>;

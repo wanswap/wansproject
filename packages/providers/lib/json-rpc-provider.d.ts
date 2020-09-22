@@ -1,9 +1,9 @@
-import { Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { Signer } from "@ethersproject/abstract-signer";
-import { Bytes } from "@ethersproject/bytes";
-import { Network, Networkish } from "@ethersproject/networks";
-import { Deferrable } from "@ethersproject/properties";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Provider, TransactionRequest, TransactionResponse } from "@wansproject/abstract-provider";
+import { Signer } from "@wansproject/abstract-signer";
+import { Bytes } from "@wansproject/bytes";
+import { Network, Networkish } from "@wansproject/networks";
+import { Deferrable } from "@wansproject/properties";
+import { ConnectionInfo } from "@wansproject/web";
 import { BaseProvider, Event } from "./base-provider";
 export declare class JsonRpcSigner extends Signer {
     readonly provider: JsonRpcProvider;

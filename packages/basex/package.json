@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/properties": "^5.0.3"
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/properties": "^5.0.3"
   },
   "description": "Base-X without Buffer.",
   "ethereum": "donations.ethers.eth",
@@ -13,18 +13,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/basex",
+  "name": "@wansproject/basex",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x6474b3e488a215b45db9ab589839a5b44146e6e720a86ccd81de292447325fc0",
+  "tarballHash": "0x105e394fa81fc66bfbfb2a8892ab7c85696b725514cc38e480816472f7841106",
   "types": "./lib/index.d.ts",
   "version": "5.0.3"
 }

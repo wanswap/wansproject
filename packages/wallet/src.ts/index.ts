@@ -1,20 +1,20 @@
 "use strict";
 
-import { getAddress } from "@ethersproject/address";
-import { Provider, TransactionRequest } from "@ethersproject/abstract-provider";
-import { ExternallyOwnedAccount, Signer } from "@ethersproject/abstract-signer";
-import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@ethersproject/bytes";
-import { hashMessage } from "@ethersproject/hash";
-import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@ethersproject/hdnode";
-import { keccak256 } from "@ethersproject/keccak256";
-import { defineReadOnly, resolveProperties } from "@ethersproject/properties";
-import { randomBytes } from "@ethersproject/random";
-import { SigningKey } from "@ethersproject/signing-key";
-import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@ethersproject/json-wallets";
-import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@ethersproject/transactions";
-import { Wordlist } from "@ethersproject/wordlists";
+import { getAddress } from "@wansproject/address";
+import { Provider, TransactionRequest } from "@wansproject/abstract-provider";
+import { ExternallyOwnedAccount, Signer } from "@wansproject/abstract-signer";
+import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@wansproject/bytes";
+import { hashMessage } from "@wansproject/hash";
+import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@wansproject/hdnode";
+import { keccak256 } from "@wansproject/keccak256";
+import { defineReadOnly, resolveProperties } from "@wansproject/properties";
+import { randomBytes } from "@wansproject/random";
+import { SigningKey } from "@wansproject/signing-key";
+import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@wansproject/json-wallets";
+import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@wansproject/transactions";
+import { Wordlist } from "@wansproject/wordlists";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

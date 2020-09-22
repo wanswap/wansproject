@@ -8,8 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { defineReadOnly, resolveProperties, shallowCopy } from "@ethersproject/properties";
-import { Logger } from "@ethersproject/logger";
+import { defineReadOnly, resolveProperties, shallowCopy } from "@wansproject/properties";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 const allowedTransactionKeys = [

@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/logger": "^5.0.5"
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/logger": "^5.0.5"
   },
   "description": "Recursive-Length Prefix (RLP) coder.",
   "ethereum": "donations.ethers.eth",
@@ -14,18 +14,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/rlp",
+  "name": "@wansproject/rlp",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x00d3a2aebe8440aa261236b427a65530e12336b50b79252fde705f2ea5616af2",
+  "tarballHash": "0x178c8656e524b8bc4d80b3cfc2a8864f8877f290102fbcc70f9e984f72905ece",
   "types": "./lib/index.d.ts",
   "version": "5.0.3"
 }

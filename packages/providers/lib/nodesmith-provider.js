@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var url_json_rpc_provider_1 = require("./url-json-rpc-provider");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 // Special API key provided by Nodesmith for ethers.js

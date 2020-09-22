@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var strings_1 = require("@ethersproject/strings");
+var strings_1 = require("@wansproject/strings");
 var bytes_1 = require("./bytes");
 var StringCoder = /** @class */ (function (_super) {
     __extends(StringCoder, _super);

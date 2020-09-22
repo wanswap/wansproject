@@ -23997,7 +23997,7 @@ var utils$1 = /*#__PURE__*/Object.freeze({
 	Indexed: Indexed
 });
 
-const version$o = "ethers/5.0.14";
+const version$o = "ethers/5.0.15";
 
 "use strict";
 const logger$E = new Logger(version$o);

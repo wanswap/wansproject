@@ -1,13 +1,13 @@
 "use strict";
-import { getAddress } from "@ethersproject/address";
-import { BigNumber } from "@ethersproject/bignumber";
-import { arrayify, hexDataSlice, hexlify, hexZeroPad, isBytesLike, splitSignature, stripZeros, } from "@ethersproject/bytes";
-import { Zero } from "@ethersproject/constants";
-import { keccak256 } from "@ethersproject/keccak256";
-import { checkProperties } from "@ethersproject/properties";
-import * as RLP from "@ethersproject/rlp";
-import { computePublicKey, recoverPublicKey } from "@ethersproject/signing-key";
-import { Logger } from "@ethersproject/logger";
+import { getAddress } from "@wansproject/address";
+import { BigNumber } from "@wansproject/bignumber";
+import { arrayify, hexDataSlice, hexlify, hexZeroPad, isBytesLike, splitSignature, stripZeros, } from "@wansproject/bytes";
+import { Zero } from "@wansproject/constants";
+import { keccak256 } from "@wansproject/keccak256";
+import { checkProperties } from "@wansproject/properties";
+import * as RLP from "@wansproject/rlp";
+import { computePublicKey, recoverPublicKey } from "@wansproject/signing-key";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ///////////////////////////////

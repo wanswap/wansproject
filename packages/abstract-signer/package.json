@@ -1,11 +1,11 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abstract-provider": "^5.0.4",
-    "@ethersproject/bignumber": "^5.0.7",
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/logger": "^5.0.5",
-    "@ethersproject/properties": "^5.0.3"
+    "@wansproject/abstract-provider": "^5.0.4",
+    "@wansproject/bignumber": "^5.0.7",
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/logger": "^5.0.5",
+    "@wansproject/properties": "^5.0.3"
   },
   "description": "An Abstract Class for desribing an Ethereum Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -16,18 +16,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/abstract-signer",
+  "name": "@wansproject/abstract-signer",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x01b03b3690c98369da51c196e581f04693c08365805bb6e036ec3fce8e58fa08",
+  "tarballHash": "0xed1d0a68c37c9b11104fa592ff70e51f47279771b949b42af65ac60b3ba6936e",
   "types": "./lib/index.d.ts",
   "version": "5.0.5"
 }

@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.0.4",
+    "@wansproject/bytes": "^5.0.4",
     "js-sha3": "0.5.7"
   },
   "description": "The keccak256 hash function for ethers.",
@@ -13,18 +13,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/keccak256",
+  "name": "@wansproject/keccak256",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x7d31a8968c835e8e01460c7689d75349a6da927a60bf1411989ae5fe0d0ba93e",
+  "tarballHash": "0x16cc22a6fd10a0864eee3454c9c97ce5cb60944ee4c0d05e3431507847cd44d1",
   "types": "./lib/index.d.ts",
   "version": "5.0.3"
 }

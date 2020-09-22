@@ -9429,7 +9429,7 @@
 
 
 
-	//import { AddressZero } from "@ethersproject/constants";
+	//import { AddressZero } from "@wansproject/constants";
 
 	// @TOOD remove dependences transactions
 
@@ -27253,7 +27253,7 @@
 	var _version$M = createCommonjsModule(function (module, exports) {
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
-	exports.version = "ethers/5.0.14";
+	exports.version = "ethers/5.0.15";
 
 	});
 

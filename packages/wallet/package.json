@@ -1,21 +1,21 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abstract-provider": "^5.0.4",
-    "@ethersproject/abstract-signer": "^5.0.4",
-    "@ethersproject/address": "^5.0.4",
-    "@ethersproject/bignumber": "^5.0.7",
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/hash": "^5.0.4",
-    "@ethersproject/hdnode": "^5.0.4",
-    "@ethersproject/json-wallets": "^5.0.6",
-    "@ethersproject/keccak256": "^5.0.3",
-    "@ethersproject/logger": "^5.0.5",
-    "@ethersproject/properties": "^5.0.3",
-    "@ethersproject/random": "^5.0.3",
-    "@ethersproject/signing-key": "^5.0.4",
-    "@ethersproject/transactions": "^5.0.5",
-    "@ethersproject/wordlists": "^5.0.4"
+    "@wansproject/abstract-provider": "^5.0.4",
+    "@wansproject/abstract-signer": "^5.0.4",
+    "@wansproject/address": "^5.0.4",
+    "@wansproject/bignumber": "^5.0.7",
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/hash": "^5.0.4",
+    "@wansproject/hdnode": "^5.0.4",
+    "@wansproject/json-wallets": "^5.0.6",
+    "@wansproject/keccak256": "^5.0.3",
+    "@wansproject/logger": "^5.0.5",
+    "@wansproject/properties": "^5.0.3",
+    "@wansproject/random": "^5.0.3",
+    "@wansproject/signing-key": "^5.0.4",
+    "@wansproject/transactions": "^5.0.5",
+    "@wansproject/wordlists": "^5.0.4"
   },
   "description": "Classes for managing, encrypting and decrypting Ethereum private keys as a Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -26,18 +26,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/wallet",
+  "name": "@wansproject/wallet",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x5b97cfb5934aad843663222af889e9c2e94f88eb690638b75246e7ad878333d7",
+  "tarballHash": "0xdd21a9481743f1002fd6fa62bb070b5aa40703f963786801b43e452824cf7f34",
   "types": "./lib/index.d.ts",
   "version": "5.0.4"
 }

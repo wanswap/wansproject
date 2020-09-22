@@ -56,16 +56,16 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var abi_1 = require("@ethersproject/abi");
-var abstract_provider_1 = require("@ethersproject/abstract-provider");
-var abstract_signer_1 = require("@ethersproject/abstract-signer");
-var address_1 = require("@ethersproject/address");
-var bignumber_1 = require("@ethersproject/bignumber");
-var bytes_1 = require("@ethersproject/bytes");
-//import { AddressZero } from "@ethersproject/constants";
-var properties_1 = require("@ethersproject/properties");
+var abi_1 = require("@wansproject/abi");
+var abstract_provider_1 = require("@wansproject/abstract-provider");
+var abstract_signer_1 = require("@wansproject/abstract-signer");
+var address_1 = require("@wansproject/address");
+var bignumber_1 = require("@wansproject/bignumber");
+var bytes_1 = require("@wansproject/bytes");
+//import { AddressZero } from "@wansproject/constants";
+var properties_1 = require("@wansproject/properties");
 // @TOOD remove dependences transactions
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 ;

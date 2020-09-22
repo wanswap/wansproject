@@ -15,19 +15,19 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/shims",
+  "name": "@wansproject/shims",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "dist": "browserify ./src/index.js -o ./dist/index.js && uglifyjs --compress --mangle --output ./dist/index.min.js -- ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0xc6ad91462bf8be9bb6077a5e22f43ff35e82a815dbd91bbd6d709c945f8e03e2",
+  "tarballHash": "0x798bb4ac73f2ea8d4a5dd89c7782cb5e13d2a7a159eac1ec0b35626aa367aa6a",
   "types": "./lib/index.d.ts",
   "version": "5.0.5"
 }

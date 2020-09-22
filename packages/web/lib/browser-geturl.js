@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var bytes_1 = require("@ethersproject/bytes");
+var bytes_1 = require("@wansproject/bytes");
 function getUrl(href, options) {
     return __awaiter(this, void 0, void 0, function () {
         var request, response, body, headers;

@@ -1,12 +1,12 @@
 "use strict";
 
-import { Network, Networkish } from "@ethersproject/networks";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network, Networkish } from "@wansproject/networks";
+import { ConnectionInfo } from "@wansproject/web";
 
 import { showThrottleMessage } from "./formatter";
 import { WebSocketProvider } from "./websocket-provider";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

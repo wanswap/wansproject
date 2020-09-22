@@ -2,14 +2,14 @@
 
 import WebSocket from "ws";
 
-import { BigNumber } from "@ethersproject/bignumber";
-import { Networkish } from "@ethersproject/networks";
-import { defineReadOnly } from "@ethersproject/properties";
+import { BigNumber } from "@wansproject/bignumber";
+import { Networkish } from "@wansproject/networks";
+import { defineReadOnly } from "@wansproject/properties";
 
 import { Event } from "./base-provider";
 import { JsonRpcProvider } from "./json-rpc-provider";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

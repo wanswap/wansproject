@@ -1,14 +1,14 @@
 "use strict";
 
-import { BlockTag, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { hexlify, hexValue } from "@ethersproject/bytes";
-import { Network, Networkish } from "@ethersproject/networks";
-import { deepCopy, defineReadOnly } from "@ethersproject/properties";
-import { fetchJson } from "@ethersproject/web";
+import { BlockTag, TransactionRequest, TransactionResponse } from "@wansproject/abstract-provider";
+import { hexlify, hexValue } from "@wansproject/bytes";
+import { Network, Networkish } from "@wansproject/networks";
+import { deepCopy, defineReadOnly } from "@wansproject/properties";
+import { fetchJson } from "@wansproject/web";
 
 import { showThrottleMessage } from "./formatter";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

@@ -2,7 +2,7 @@
 
 import { randomBytes as _randomBytes } from "crypto";
 
-import { arrayify } from "@ethersproject/bytes";
+import { arrayify } from "@wansproject/bytes";
 
 export { shuffled } from "./shuffle";
 

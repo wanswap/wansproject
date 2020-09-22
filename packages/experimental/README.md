@@ -23,7 +23,7 @@ and the password cannot be changed. But for backwards compatibility and for simp
 testing, we provide it here.
 
 ```javascript
-import { BrainWallet } from "@ethersproject/experimenatl/brain-wallet";
+import { BrainWallet } from "@wansproject/experimenatl/brain-wallet";
 
 // This is optional, but since a Brain Wallet can take 5-10s to generate,
 // helps keep your users informed
@@ -49,7 +49,7 @@ BrainWallet.generate(username, password, showProgess).then((wallet) => {
 **NonceManager**
 
 ```javascript
-import { NonceManager } from "@ethersproject/experimenatl/nonce-manager";
+import { NonceManager } from "@wansproject/experimenatl/nonce-manager";
 
 let signer = "... any way you get a signer ...";
 
@@ -64,7 +64,7 @@ let managedSigner = new NonceManager(signer);
 **RetryProvider**
 
 ```javascript
-import { RetryProvider } from "@ethersproject/experimenatl/retry-provider";
+import { RetryProvider } from "@wansproject/experimenatl/retry-provider";
 
 let provider = "... any way you get a signer...";
 

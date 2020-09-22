@@ -7,8 +7,8 @@
  *
  */
 import { BN } from "bn.js";
-import { hexlify, isBytes, isHexString } from "@ethersproject/bytes";
-import { Logger } from "@ethersproject/logger";
+import { hexlify, isBytes, isHexString } from "@wansproject/bytes";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 const _constructorGuard = {};

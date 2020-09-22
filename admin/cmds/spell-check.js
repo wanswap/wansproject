@@ -185,7 +185,7 @@ function starts(text, prefix) {
             if (value === "") { return; }
 
             // Prolly a require
-            if (value.match(/^@ethersproject\/[a-z0-9-]+$/)) { return; }
+            if (value.match(/^@wansproject\/[a-z0-9-]+$/)) { return; }
             if (value.substring(0, 2) === "./") { return; }
 
             // Prolly encoded binary data

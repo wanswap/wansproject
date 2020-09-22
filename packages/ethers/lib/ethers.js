@@ -7,29 +7,29 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var contracts_1 = require("@ethersproject/contracts");
+var contracts_1 = require("@wansproject/contracts");
 exports.Contract = contracts_1.Contract;
 exports.ContractFactory = contracts_1.ContractFactory;
-var bignumber_1 = require("@ethersproject/bignumber");
+var bignumber_1 = require("@wansproject/bignumber");
 exports.BigNumber = bignumber_1.BigNumber;
 exports.FixedNumber = bignumber_1.FixedNumber;
-var abstract_signer_1 = require("@ethersproject/abstract-signer");
+var abstract_signer_1 = require("@wansproject/abstract-signer");
 exports.Signer = abstract_signer_1.Signer;
 exports.VoidSigner = abstract_signer_1.VoidSigner;
-var wallet_1 = require("@ethersproject/wallet");
+var wallet_1 = require("@wansproject/wallet");
 exports.Wallet = wallet_1.Wallet;
-var constants = __importStar(require("@ethersproject/constants"));
+var constants = __importStar(require("@wansproject/constants"));
 exports.constants = constants;
-var providers = __importStar(require("@ethersproject/providers"));
+var providers = __importStar(require("@wansproject/providers"));
 exports.providers = providers;
-var providers_1 = require("@ethersproject/providers");
+var providers_1 = require("@wansproject/providers");
 exports.getDefaultProvider = providers_1.getDefaultProvider;
-var wordlists_1 = require("@ethersproject/wordlists");
+var wordlists_1 = require("@wansproject/wordlists");
 exports.Wordlist = wordlists_1.Wordlist;
 exports.wordlists = wordlists_1.wordlists;
 var utils = __importStar(require("./utils"));
 exports.utils = utils;
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 exports.errors = logger_1.ErrorCode;
 ////////////////////////
 // Compile-Time Constants

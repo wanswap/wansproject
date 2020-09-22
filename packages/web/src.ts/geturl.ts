@@ -4,11 +4,11 @@ import http from "http";
 import https from "https";
 import { parse } from "url"
 
-import { concat } from "@ethersproject/bytes";
+import { concat } from "@wansproject/bytes";
 
 import type { GetUrlResponse, Options } from "./types";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

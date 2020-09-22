@@ -230,7 +230,7 @@ module.exports = {
       "link-ethersio": "https:/\/ethers.io/",
       "link-ethers-docs": "https:/\/docs.ethers.io/",
       "link-ethers-js": "https:/\/cdn.ethers.io/lib/ethers-5.0.esm.min.js",
-      "link-ethers-npm": "https:/\/www.npmjs.com/search?q=%40ethersproject%2F",
+      "link-ethers-npm": "https:/\/www.npmjs.com/search?q=%40wansproject%2F",
       "link-ethers-asm-grammar": "https:/\/github.com/ethers-io/ethers.js/blob/master/packages/asm/grammar.jison",
 
       "link-eip-155": { name: "EIP-155", url: "https:/\/eips.ethereum.org/EIPS/eip-155" },
@@ -243,7 +243,7 @@ module.exports = {
       "link-bip-32": { name: "BIP-32", url: "https:/\/github.com/bitcoin/bips/blob/master/bip-0032.mediawiki" },
 
       "link-npm-elliptic": { name: "elliptic", url: "https:/\/www.npmjs.com/package/elliptic" },
-      "link-npm-ethersproject-shims": { name: "Shims", url: "https:/\/www.npmjs.com/package/@ethersproject/shims" },
+      "link-npm-wansproject-shims": { name: "Shims", url: "https:/\/www.npmjs.com/package/@wansproject/shims" },
       "link-npm-events": { name: "EventEmitter", url: "https:/\/nodejs.org/dist/latest-v13.x/docs/api/events.html#events_class_eventemitter" },
       "link-npm-bnjs": { name: "BN.js", url: "https:/\/www.npmjs.com/package/bn.js" },
       "link-npm-query-bignumber": "https:/\/www.npmjs.com/search?q=bignumber",

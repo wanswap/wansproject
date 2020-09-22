@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var abstract_provider_1 = require("@ethersproject/abstract-provider");
+var abstract_provider_1 = require("@wansproject/abstract-provider");
 exports.Provider = abstract_provider_1.Provider;
-var networks_1 = require("@ethersproject/networks");
+var networks_1 = require("@wansproject/networks");
 exports.getNetwork = networks_1.getNetwork;
 var base_provider_1 = require("./base-provider");
 exports.BaseProvider = base_provider_1.BaseProvider;
@@ -33,7 +33,7 @@ var websocket_provider_1 = require("./websocket-provider");
 exports.WebSocketProvider = websocket_provider_1.WebSocketProvider;
 var formatter_1 = require("./formatter");
 exports.Formatter = formatter_1.Formatter;
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 ////////////////////////

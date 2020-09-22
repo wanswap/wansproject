@@ -17,19 +17,19 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/asm",
+  "name": "@wansproject/asm",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "generate": "node ./generate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x2071ce1b680b0cc39db6ae3b4bc4bf170f73feb376e5474fa78f5541c3cf35ab",
+  "tarballHash": "0x680792d08ec5aeb31bd406cc82c2d9f29f08ab311cfe2bf599244acf508f25ef",
   "types": "./lib/index.d.ts",
   "version": "5.0.5"
 }

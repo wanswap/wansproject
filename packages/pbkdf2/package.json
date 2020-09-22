@@ -4,8 +4,8 @@
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/sha2": "^5.0.3"
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/sha2": "^5.0.3"
   },
   "description": "The PBKDF2 password-pbased key derivation function for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -17,18 +17,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/pbkdf2",
+  "name": "@wansproject/pbkdf2",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x8c46f9e051013b8c652e065d03c7c92afd02fd33cdc87b106b8e4bfe35dff605",
+  "tarballHash": "0x24ad7539d1fef44a4fc7f16f93fa7f41d191310f9d604d7e073817353fb1388e",
   "types": "./lib/index.d.ts",
   "version": "5.0.3"
 }

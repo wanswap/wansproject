@@ -5,7 +5,7 @@
 //
 // See: https://github.com/ethers-io/ethers.js/issues/427
 import { ethers } from "ethers";
-import { poll } from "@ethersproject/web";
+import { poll } from "@wansproject/web";
 import { version } from "./_version";
 const logger = new ethers.utils.Logger(version);
 export class RetryProvider extends ethers.providers.BaseProvider {

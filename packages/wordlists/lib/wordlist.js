@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // This gets overridden by rollup
 var exportWordlist = false;
-var hash_1 = require("@ethersproject/hash");
-var properties_1 = require("@ethersproject/properties");
-var logger_1 = require("@ethersproject/logger");
+var hash_1 = require("@wansproject/hash");
+var properties_1 = require("@wansproject/properties");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 exports.logger = new logger_1.Logger(_version_1.version);
 var Wordlist = /** @class */ (function () {

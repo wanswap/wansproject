@@ -3,22 +3,22 @@
 import {
     Block, BlockTag, BlockWithTransactions, EventType, Filter, FilterByBlockHash, ForkEvent,
     Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse
-} from "@ethersproject/abstract-provider";
-import { Base58 } from "@ethersproject/basex";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { arrayify, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { HashZero } from "@ethersproject/constants";
-import { namehash } from "@ethersproject/hash";
-import { getNetwork, Network, Networkish } from "@ethersproject/networks";
-import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject/properties";
-import { Transaction } from "@ethersproject/transactions";
-import { sha256 } from "@ethersproject/sha2";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
-import { poll } from "@ethersproject/web";
+} from "@wansproject/abstract-provider";
+import { Base58 } from "@wansproject/basex";
+import { BigNumber, BigNumberish } from "@wansproject/bignumber";
+import { arrayify, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@wansproject/bytes";
+import { HashZero } from "@wansproject/constants";
+import { namehash } from "@wansproject/hash";
+import { getNetwork, Network, Networkish } from "@wansproject/networks";
+import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@wansproject/properties";
+import { Transaction } from "@wansproject/transactions";
+import { sha256 } from "@wansproject/sha2";
+import { toUtf8Bytes, toUtf8String } from "@wansproject/strings";
+import { poll } from "@wansproject/web";
 
 import { encode, toWords } from "bech32";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

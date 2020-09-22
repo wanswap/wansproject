@@ -1,16 +1,16 @@
 "use strict";
 
-import { checkResultErrors, EventFragment, Fragment, FunctionFragment, Indexed, Interface, JsonFragment, LogDescription, ParamType, Result } from "@ethersproject/abi";
-import { Block, BlockTag, Filter, FilterByBlockHash, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
-import { getAddress, getContractAddress } from "@ethersproject/address";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { BytesLike, concat, hexlify, isBytes, isHexString } from "@ethersproject/bytes";
-//import { AddressZero } from "@ethersproject/constants";
-import { Deferrable, defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
+import { checkResultErrors, EventFragment, Fragment, FunctionFragment, Indexed, Interface, JsonFragment, LogDescription, ParamType, Result } from "@wansproject/abi";
+import { Block, BlockTag, Filter, FilterByBlockHash, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@wansproject/abstract-provider";
+import { Signer, VoidSigner } from "@wansproject/abstract-signer";
+import { getAddress, getContractAddress } from "@wansproject/address";
+import { BigNumber, BigNumberish } from "@wansproject/bignumber";
+import { BytesLike, concat, hexlify, isBytes, isHexString } from "@wansproject/bytes";
+//import { AddressZero } from "@wansproject/constants";
+import { Deferrable, defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@wansproject/properties";
 // @TOOD remove dependences transactions
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 
 const logger = new Logger(version);

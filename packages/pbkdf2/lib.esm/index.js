@@ -1,6 +1,6 @@
 "use strict";
 import { pbkdf2Sync as _pbkdf2 } from "crypto";
-import { arrayify, hexlify } from "@ethersproject/bytes";
+import { arrayify, hexlify } from "@wansproject/bytes";
 function bufferify(value) {
     return Buffer.from(arrayify(value));
 }

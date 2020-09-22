@@ -1,4 +1,4 @@
-import { Networkish } from "@ethersproject/networks";
+import { Networkish } from "@wansproject/networks";
 import { JsonRpcProvider } from "./json-rpc-provider";
 export interface Eip1193Provider {
     isMetaMask?: boolean;

@@ -8,16 +8,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { checkResultErrors, Indexed, Interface } from "@ethersproject/abi";
-import { Provider } from "@ethersproject/abstract-provider";
-import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
-import { getAddress, getContractAddress } from "@ethersproject/address";
-import { BigNumber } from "@ethersproject/bignumber";
-import { concat, hexlify, isBytes, isHexString } from "@ethersproject/bytes";
-//import { AddressZero } from "@ethersproject/constants";
-import { defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
+import { checkResultErrors, Indexed, Interface } from "@wansproject/abi";
+import { Provider } from "@wansproject/abstract-provider";
+import { Signer, VoidSigner } from "@wansproject/abstract-signer";
+import { getAddress, getContractAddress } from "@wansproject/address";
+import { BigNumber } from "@wansproject/bignumber";
+import { concat, hexlify, isBytes, isHexString } from "@wansproject/bytes";
+//import { AddressZero } from "@wansproject/constants";
+import { defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@wansproject/properties";
 // @TOOD remove dependences transactions
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ;

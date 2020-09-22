@@ -13,8 +13,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var bytes_1 = require("@ethersproject/bytes");
-var strings_1 = require("@ethersproject/strings");
+var bytes_1 = require("@wansproject/bytes");
+var strings_1 = require("@wansproject/strings");
 var wordlist_1 = require("./wordlist");
 var data = [
     // 4-kana words

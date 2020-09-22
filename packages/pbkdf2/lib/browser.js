@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var bytes_1 = require("@ethersproject/bytes");
-var sha2_1 = require("@ethersproject/sha2");
+var bytes_1 = require("@wansproject/bytes");
+var sha2_1 = require("@wansproject/sha2");
 function pbkdf2(password, salt, iterations, keylen, hashAlgorithm) {
     password = bytes_1.arrayify(password);
     salt = bytes_1.arrayify(salt);

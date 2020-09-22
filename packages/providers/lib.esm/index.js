@@ -1,6 +1,6 @@
 "use strict";
-import { Provider } from "@ethersproject/abstract-provider";
-import { getNetwork } from "@ethersproject/networks";
+import { Provider } from "@wansproject/abstract-provider";
+import { getNetwork } from "@wansproject/networks";
 import { BaseProvider, Resolver } from "./base-provider";
 import { AlchemyProvider } from "./alchemy-provider";
 import { CloudflareProvider } from "./cloudflare-provider";
@@ -14,7 +14,7 @@ import { StaticJsonRpcProvider, UrlJsonRpcProvider } from "./url-json-rpc-provid
 import { Web3Provider } from "./web3-provider";
 import { WebSocketProvider } from "./websocket-provider";
 import { Formatter } from "./formatter";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ////////////////////////

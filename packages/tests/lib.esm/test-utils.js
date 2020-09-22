@@ -1,7 +1,7 @@
 'use strict';
 import assert from 'assert';
 import { ethers } from "ethers";
-import { loadTests } from "@ethersproject/testcases";
+import { loadTests } from "@wansproject/testcases";
 import * as utils from './utils';
 function equals(a, b) {
     if (Array.isArray(a)) {

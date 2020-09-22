@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // We use this for base 36 maths
 var bn_js_1 = require("bn.js");
-var bytes_1 = require("@ethersproject/bytes");
-var bignumber_1 = require("@ethersproject/bignumber");
-var keccak256_1 = require("@ethersproject/keccak256");
-var rlp_1 = require("@ethersproject/rlp");
-var logger_1 = require("@ethersproject/logger");
+var bytes_1 = require("@wansproject/bytes");
+var bignumber_1 = require("@wansproject/bignumber");
+var keccak256_1 = require("@wansproject/keccak256");
+var rlp_1 = require("@wansproject/rlp");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 function getChecksumAddress(address) {

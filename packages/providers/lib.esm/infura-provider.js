@@ -1,7 +1,7 @@
 "use strict";
 import { WebSocketProvider } from "./websocket-provider";
 import { showThrottleMessage } from "./formatter";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

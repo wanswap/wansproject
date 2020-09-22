@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { ethers } from "ethers";
-import { Base58 } from "@ethersproject/basex";
+import { Base58 } from "@wansproject/basex";
 import { CLI, Plugin } from '../cli';
 import { version } from "../_version";
 const logger = new ethers.utils.Logger(version);

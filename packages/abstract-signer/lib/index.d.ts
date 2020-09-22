@@ -1,7 +1,7 @@
-import { BlockTag, Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { BigNumber } from "@ethersproject/bignumber";
-import { Bytes } from "@ethersproject/bytes";
-import { Deferrable } from "@ethersproject/properties";
+import { BlockTag, Provider, TransactionRequest, TransactionResponse } from "@wansproject/abstract-provider";
+import { BigNumber } from "@wansproject/bignumber";
+import { Bytes } from "@wansproject/bytes";
+import { Deferrable } from "@wansproject/properties";
 export interface ExternallyOwnedAccount {
     readonly address: string;
     readonly privateKey: string;

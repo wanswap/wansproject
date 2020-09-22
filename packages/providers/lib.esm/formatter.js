@@ -1,11 +1,11 @@
 "use strict";
-import { getAddress, getContractAddress } from "@ethersproject/address";
-import { BigNumber } from "@ethersproject/bignumber";
-import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { AddressZero } from "@ethersproject/constants";
-import { shallowCopy } from "@ethersproject/properties";
-import { parse as parseTransaction } from "@ethersproject/transactions";
-import { Logger } from "@ethersproject/logger";
+import { getAddress, getContractAddress } from "@wansproject/address";
+import { BigNumber } from "@wansproject/bignumber";
+import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@wansproject/bytes";
+import { AddressZero } from "@wansproject/constants";
+import { shallowCopy } from "@wansproject/properties";
+import { parse as parseTransaction } from "@wansproject/transactions";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 export class Formatter {

@@ -1,4 +1,4 @@
-import { BytesLike } from '@ethersproject/bytes';
+import { BytesLike } from '@wansproject/bytes';
 export declare enum SupportedAlgorithm {
     sha256 = "sha256",
     sha512 = "sha512"

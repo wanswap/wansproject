@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/logger": "^5.0.5"
+    "@wansproject/logger": "^5.0.5"
   },
   "description": "Bytes utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -12,20 +12,20 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/bytes",
+  "name": "@wansproject/bytes",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "auto-build": "npm run build -- -w",
     "build": "tsc -p ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0xa07a7f838f037d4fae18f8877e868590567fe55052f629da882680b5e0eca355",
+  "tarballHash": "0xee83e8e9c5e36c2746fb9b844716e41ff89bfdc17d015f488b50d7c7078d6061",
   "types": "./lib/index.d.ts",
   "version": "5.0.4"
 }

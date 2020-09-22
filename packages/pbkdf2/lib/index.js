@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var crypto_1 = require("crypto");
-var bytes_1 = require("@ethersproject/bytes");
+var bytes_1 = require("@wansproject/bytes");
 function bufferify(value) {
     return Buffer.from(bytes_1.arrayify(value));
 }

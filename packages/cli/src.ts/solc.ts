@@ -125,7 +125,7 @@ function _compile(_solc: any, source: string, options?: CompilerOptions): Array<
 
 
 // Creates a require which will first search from the current location,
-// and for solc will fallback onto the version included in @ethersproject/cli
+// and for solc will fallback onto the version included in @wansproject/cli
 export function customRequire(path: string): (name: string) => any {
     // Node 8.x does not support createRequireFromPath
     const createRequire = (_module.createRequireFromPath || (function(path: string) {

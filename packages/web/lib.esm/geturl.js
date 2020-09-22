@@ -11,8 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import http from "http";
 import https from "https";
 import { parse } from "url";
-import { concat } from "@ethersproject/bytes";
-import { Logger } from "@ethersproject/logger";
+import { concat } from "@wansproject/bytes";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 function getResponse(request) {

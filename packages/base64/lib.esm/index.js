@@ -1,5 +1,5 @@
 "use strict";
-import { arrayify } from "@ethersproject/bytes";
+import { arrayify } from "@wansproject/bytes";
 export function decode(textData) {
     return arrayify(new Uint8Array(Buffer.from(textData, "base64")));
 }

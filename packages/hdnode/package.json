@@ -1,18 +1,18 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abstract-signer": "^5.0.4",
-    "@ethersproject/basex": "^5.0.3",
-    "@ethersproject/bignumber": "^5.0.7",
-    "@ethersproject/bytes": "^5.0.4",
-    "@ethersproject/logger": "^5.0.5",
-    "@ethersproject/pbkdf2": "^5.0.3",
-    "@ethersproject/properties": "^5.0.3",
-    "@ethersproject/sha2": "^5.0.3",
-    "@ethersproject/signing-key": "^5.0.4",
-    "@ethersproject/strings": "^5.0.4",
-    "@ethersproject/transactions": "^5.0.5",
-    "@ethersproject/wordlists": "^5.0.4"
+    "@wansproject/abstract-signer": "^5.0.4",
+    "@wansproject/basex": "^5.0.3",
+    "@wansproject/bignumber": "^5.0.7",
+    "@wansproject/bytes": "^5.0.4",
+    "@wansproject/logger": "^5.0.5",
+    "@wansproject/pbkdf2": "^5.0.3",
+    "@wansproject/properties": "^5.0.3",
+    "@wansproject/sha2": "^5.0.3",
+    "@wansproject/signing-key": "^5.0.4",
+    "@wansproject/strings": "^5.0.4",
+    "@wansproject/transactions": "^5.0.5",
+    "@wansproject/wordlists": "^5.0.4"
   },
   "description": "BIP32 Hierarchal Deterministic Node operations.",
   "ethereum": "donations.ethers.eth",
@@ -23,18 +23,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/hdnode",
+  "name": "@wansproject/hdnode",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0x1f5dad9fb05efd443de0fe9e8ce6dae571fe5acda7087302321dd46e83d5b6a9",
+  "tarballHash": "0x3f234143e01ab533b9156c1b766829308a9e8cbea4a5d6107e11f16cbf96a525",
   "types": "./lib/index.d.ts",
   "version": "5.0.4"
 }

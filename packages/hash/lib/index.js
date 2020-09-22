@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var bytes_1 = require("@ethersproject/bytes");
-var strings_1 = require("@ethersproject/strings");
-var keccak256_1 = require("@ethersproject/keccak256");
-var logger_1 = require("@ethersproject/logger");
+var bytes_1 = require("@wansproject/bytes");
+var strings_1 = require("@wansproject/strings");
+var keccak256_1 = require("@wansproject/keccak256");
+var logger_1 = require("@wansproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 ///////////////////////////////

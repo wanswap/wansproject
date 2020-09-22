@@ -51,7 +51,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var ethers_1 = require("ethers");
-var basex_1 = require("@ethersproject/basex");
+var basex_1 = require("@wansproject/basex");
 var cli_1 = require("../cli");
 var _version_1 = require("../_version");
 var logger = new ethers_1.ethers.utils.Logger(_version_1.version);

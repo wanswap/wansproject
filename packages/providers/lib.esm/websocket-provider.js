@@ -9,10 +9,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import WebSocket from "ws";
-import { BigNumber } from "@ethersproject/bignumber";
-import { defineReadOnly } from "@ethersproject/properties";
+import { BigNumber } from "@wansproject/bignumber";
+import { defineReadOnly } from "@wansproject/properties";
 import { JsonRpcProvider } from "./json-rpc-provider";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 /**

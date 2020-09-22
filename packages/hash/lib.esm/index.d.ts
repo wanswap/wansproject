@@ -1,4 +1,4 @@
-import { Bytes } from "@ethersproject/bytes";
+import { Bytes } from "@wansproject/bytes";
 export declare function isValidName(name: string): boolean;
 export declare function namehash(name: string): string;
 export declare function id(text: string): string;

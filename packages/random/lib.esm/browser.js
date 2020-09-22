@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify } from "@ethersproject/bytes";
-import { Logger } from "@ethersproject/logger";
+import { arrayify } from "@wansproject/bytes";
+import { Logger } from "@wansproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 export { shuffled } from "./shuffle";

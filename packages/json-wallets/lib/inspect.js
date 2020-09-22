@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var address_1 = require("@ethersproject/address");
+var address_1 = require("@wansproject/address");
 function isCrowdsaleWallet(json) {
     var data = null;
     try {

@@ -1,5 +1,5 @@
 "use strict";
-import { toUtf8String } from "@ethersproject/strings";
+import { toUtf8String } from "@wansproject/strings";
 import { Wordlist } from "./wordlist";
 const data = [
     "OYAa",

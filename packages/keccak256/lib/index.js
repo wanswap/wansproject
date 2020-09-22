@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var js_sha3_1 = __importDefault(require("js-sha3"));
-var bytes_1 = require("@ethersproject/bytes");
+var bytes_1 = require("@wansproject/bytes");
 function keccak256(data) {
     return '0x' + js_sha3_1.default.keccak_256(bytes_1.arrayify(data));
 }

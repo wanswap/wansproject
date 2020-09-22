@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/logger": "^5.0.5"
+    "@wansproject/logger": "^5.0.5"
   },
   "description": "Network definitions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -12,18 +12,18 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/networks",
+  "name": "@wansproject/networks",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "tarballHash": "0xfc39a0c93435f3b42bc3d1c11d79eb72bfa5cb82f3bed0140d314d96b5581601",
+  "tarballHash": "0x58e69ab415ca10930a042729d643f99f5f69b7cfd027d2d0defa297f943d5679",
   "types": "./lib/index.d.ts",
   "version": "5.0.3"
 }

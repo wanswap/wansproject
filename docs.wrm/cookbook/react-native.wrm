@@ -8,7 +8,7 @@ does not use Node.js or the common Web and DOM APIs. As such,
 there are many operations missing that a normal web environment
 or Node.js instance would provide.
 
-For this reason, there is a [[link-npm-ethersproject-shims]] module
+For this reason, there is a [[link-npm-wansproject-shims]] module
 provided to fill in the holes.
 
 
@@ -25,12 +25,12 @@ After installing packages, you may need to restart your packager and company.
 
 _code: Installing @lang<shell>
 
-/home/ricmoo/my-react-project> npm install @ethersproject/shims --save
+/home/ricmoo/my-react-project> npm install @wansproject/shims --save
 
 _code: Importing @lang<script>
 
 // Pull in the shims (BEFORE importing ethers)
-import "@ethersproject/shims"
+import "@wansproject/shims"
 
 // Import the ethers library
 import { ethers } from "ethers";

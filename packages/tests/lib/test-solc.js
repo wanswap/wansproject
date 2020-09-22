@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __importDefault(require("assert"));
 var path_1 = require("path");
 var fs_1 = __importDefault(require("fs"));
-var cli_1 = require("@ethersproject/cli");
+var cli_1 = require("@wansproject/cli");
 describe('Test solc', function () {
     it('compiles contracts with imported library', function () {
         this.timeout(1200000);
