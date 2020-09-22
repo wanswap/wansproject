@@ -1,17 +1,17 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/abstract-signer": "^5.0.6",
+    "@wansproject/abstract-signer": "^5.0.7",
     "@wansproject/address": "^5.0.5",
     "@wansproject/bytes": "^5.0.5",
-    "@wansproject/hdnode": "^5.0.5",
+    "@wansproject/hdnode": "^5.0.6",
     "@wansproject/keccak256": "^5.0.4",
     "@wansproject/logger": "^5.0.6",
     "@wansproject/pbkdf2": "^5.0.4",
     "@wansproject/properties": "^5.0.4",
     "@wansproject/random": "^5.0.4",
     "@wansproject/strings": "^5.0.5",
-    "@wansproject/transactions": "^5.0.6",
+    "@wansproject/transactions": "^5.0.7",
     "aes-js": "3.0.0",
     "scrypt-js": "3.0.1"
   },
@@ -37,5 +37,5 @@
   },
   "tarballHash": "0xc084d1b37864a1ed864d190250ab762c16790b2f7aa93281cfbd598769bc40b4",
   "types": "./lib/index.d.ts",
-  "version": "5.0.7"
+  "version": "5.0.8"
 }

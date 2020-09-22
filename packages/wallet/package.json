@@ -1,20 +1,20 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/abstract-provider": "^5.0.5",
-    "@wansproject/abstract-signer": "^5.0.6",
+    "@wansproject/abstract-provider": "^5.0.6",
+    "@wansproject/abstract-signer": "^5.0.7",
     "@wansproject/address": "^5.0.5",
     "@wansproject/bignumber": "^5.0.8",
     "@wansproject/bytes": "^5.0.5",
     "@wansproject/hash": "^5.0.5",
-    "@wansproject/hdnode": "^5.0.5",
-    "@wansproject/json-wallets": "^5.0.7",
+    "@wansproject/hdnode": "^5.0.6",
+    "@wansproject/json-wallets": "^5.0.8",
     "@wansproject/keccak256": "^5.0.4",
     "@wansproject/logger": "^5.0.6",
     "@wansproject/properties": "^5.0.4",
     "@wansproject/random": "^5.0.4",
     "@wansproject/signing-key": "^5.0.5",
-    "@wansproject/transactions": "^5.0.6",
+    "@wansproject/transactions": "^5.0.7",
     "@wansproject/wordlists": "^5.0.5"
   },
   "description": "Classes for managing, encrypting and decrypting Ethereum private keys as a Signer for ethers.",
@@ -39,5 +39,5 @@
   },
   "tarballHash": "0xdd21a9481743f1002fd6fa62bb070b5aa40703f963786801b43e452824cf7f34",
   "types": "./lib/index.d.ts",
-  "version": "5.0.5"
+  "version": "5.0.6"
 }

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.6](https://github.com/buzhoumountain/ethers-wan-5.js/compare/@wansproject/contracts@5.0.5...@wansproject/contracts@5.0.6) (2020-09-22)
+
+**Note:** Version bump only for package @wansproject/contracts
+
+
+
+
+
 ## 5.0.5 (2020-09-22)
 
 

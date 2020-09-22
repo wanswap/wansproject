@@ -16,8 +16,8 @@
     "ws": "./lib/browser-ws.js"
   },
   "dependencies": {
-    "@wansproject/abstract-provider": "^5.0.5",
-    "@wansproject/abstract-signer": "^5.0.6",
+    "@wansproject/abstract-provider": "^5.0.6",
+    "@wansproject/abstract-signer": "^5.0.7",
     "@wansproject/address": "^5.0.5",
     "@wansproject/basex": "^5.0.4",
     "@wansproject/bignumber": "^5.0.8",
@@ -31,7 +31,7 @@
     "@wansproject/rlp": "^5.0.4",
     "@wansproject/sha2": "^5.0.4",
     "@wansproject/strings": "^5.0.5",
-    "@wansproject/transactions": "^5.0.6",
+    "@wansproject/transactions": "^5.0.7",
     "@wansproject/web": "^5.0.8",
     "bech32": "1.1.4",
     "ws": "7.2.3"
@@ -61,5 +61,5 @@
   },
   "tarballHash": "0x0cdb16bd09e119cf932510bc52829ff8bb25766522386046cbadb1f660233870",
   "types": "./lib/index.d.ts",
-  "version": "5.0.10"
+  "version": "5.0.11"
 }

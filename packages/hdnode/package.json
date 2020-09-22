@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/abstract-signer": "^5.0.6",
+    "@wansproject/abstract-signer": "^5.0.7",
     "@wansproject/basex": "^5.0.4",
     "@wansproject/bignumber": "^5.0.8",
     "@wansproject/bytes": "^5.0.5",
@@ -11,7 +11,7 @@
     "@wansproject/sha2": "^5.0.4",
     "@wansproject/signing-key": "^5.0.5",
     "@wansproject/strings": "^5.0.5",
-    "@wansproject/transactions": "^5.0.6",
+    "@wansproject/transactions": "^5.0.7",
     "@wansproject/wordlists": "^5.0.5"
   },
   "description": "BIP32 Hierarchal Deterministic Node operations.",
@@ -36,5 +36,5 @@
   },
   "tarballHash": "0x3f234143e01ab533b9156c1b766829308a9e8cbea4a5d6107e11f16cbf96a525",
   "types": "./lib/index.d.ts",
-  "version": "5.0.5"
+  "version": "5.0.6"
 }

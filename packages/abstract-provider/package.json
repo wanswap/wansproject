@@ -6,7 +6,7 @@
     "@wansproject/logger": "^5.0.6",
     "@wansproject/networks": "^5.0.4",
     "@wansproject/properties": "^5.0.4",
-    "@wansproject/transactions": "^5.0.6",
+    "@wansproject/transactions": "^5.0.7",
     "@wansproject/web": "^5.0.8"
   },
   "description": "An Abstract Class for describing an Ethereum Provider for ethers.",
@@ -31,5 +31,5 @@
   },
   "tarballHash": "0x2f94ee8a34962b90c0caffa8cb77622b2fe7630ae3504cc2096d33232f833922",
   "types": "./lib/index.d.ts",
-  "version": "5.0.5"
+  "version": "5.0.6"
 }

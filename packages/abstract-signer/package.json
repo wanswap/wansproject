@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@wansproject/abstract-provider": "^5.0.5",
+    "@wansproject/abstract-provider": "^5.0.6",
     "@wansproject/bignumber": "^5.0.8",
     "@wansproject/bytes": "^5.0.5",
     "@wansproject/logger": "^5.0.6",
@@ -29,5 +29,5 @@
   },
   "tarballHash": "0xed1d0a68c37c9b11104fa592ff70e51f47279771b949b42af65ac60b3ba6936e",
   "types": "./lib/index.d.ts",
-  "version": "5.0.6"
+  "version": "5.0.7"
 }
