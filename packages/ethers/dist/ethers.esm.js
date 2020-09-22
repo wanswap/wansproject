@@ -16531,6 +16531,7 @@ function handleNumber(value) {
     return BigNumber.from(value);
 }
 const transactionFields = [
+    { name: 'Txtype', maxLength: 32, numeric: true },
     { name: "nonce", maxLength: 32, numeric: true },
     { name: "gasPrice", maxLength: 32, numeric: true },
     { name: "gasLimit", maxLength: 32, numeric: true },
@@ -16539,7 +16540,7 @@ const transactionFields = [
     { name: "data" },
 ];
 const allowedTransactionKeys$2 = {
-    chainId: true, data: true, gasLimit: true, gasPrice: true, nonce: true, to: true, value: true
+    chainId: true, data: true, gasLimit: true, gasPrice: true, nonce: true, to: true, value: true, Txtype: true
 };
 function computeAddress(key) {
     const publicKey = computePublicKey(key);
@@ -16618,31 +16619,32 @@ function serialize(transaction, signature) {
 }
 function parse(rawTransaction) {
     const transaction = decode(rawTransaction);
-    if (transaction.length !== 9 && transaction.length !== 6) {
+    if (transaction.length !== 10 && transaction.length !== 7) {
         logger$h.throwArgumentError("invalid raw transaction", "rawTransaction", rawTransaction);
     }
     const tx = {
-        nonce: handleNumber(transaction[0]).toNumber(),
-        gasPrice: handleNumber(transaction[1]),
-        gasLimit: handleNumber(transaction[2]),
-        to: handleAddress(transaction[3]),
-        value: handleNumber(transaction[4]),
-        data: transaction[5],
+        Txtype: handleNumber(transaction[0]).toHexString(),
+        nonce: handleNumber(transaction[1]).toNumber(),
+        gasPrice: handleNumber(transaction[2]),
+        gasLimit: handleNumber(transaction[3]),
+        to: handleAddress(transaction[4]),
+        value: handleNumber(transaction[5]),
+        data: transaction[6],
         chainId: 0
     };
     // Legacy unsigned transaction
-    if (transaction.length === 6) {
+    if (transaction.length === 7) {
         return tx;
     }
     try {
-        tx.v = BigNumber.from(transaction[6]).toNumber();
+        tx.v = BigNumber.from(transaction[7]).toNumber();
     }
     catch (error) {
         console.log(error);
         return tx;
     }
-    tx.r = hexZeroPad(transaction[7], 32);
-    tx.s = hexZeroPad(transaction[8], 32);
+    tx.r = hexZeroPad(transaction[8], 32);
+    tx.s = hexZeroPad(transaction[9], 32);
     if (BigNumber.from(tx.r).isZero() && BigNumber.from(tx.s).isZero()) {
         // EIP-155 unsigned transaction
         tx.chainId = tx.v;
@@ -16655,7 +16657,7 @@ function parse(rawTransaction) {
             tx.chainId = 0;
         }
         let recoveryParam = tx.v - 27;
-        const raw = transaction.slice(0, 6);
+        const raw = transaction.slice(0, 7);
         if (tx.chainId !== 0) {
             raw.push(hexlify(tx.chainId));
             raw.push("0x");
@@ -16794,7 +16796,7 @@ function getWordlist(wordlist) {
     return wordlist;
 }
 const _constructorGuard$3 = {};
-const defaultPath = "m/44'/60'/0'/0/0";
+const defaultPath = "m/44'/5718350'/0'/0/0";
 ;
 class HDNode {
     /**
@@ -18978,6 +18980,7 @@ class Wallet extends Signer {
                 }
                 delete tx.from;
             }
+            tx.Txtype = "0x01";
             const signature = this._signingKey().signDigest(keccak256(serialize(tx)));
             return serialize(tx, signature);
         });

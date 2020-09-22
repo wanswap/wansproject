@@ -13,7 +13,7 @@
     "@types/mocha": "^5.2.0",
     "@wansproject/cli": "^5.0.5",
     "@wansproject/testcases": "^5.0.6",
-    "ethers": "^5.0.16"
+    "ethers-wan-5": "^5.0.16"
   },
   "description": "Testing package for ethers.",
   "devDependencies": {

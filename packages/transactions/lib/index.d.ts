@@ -1,6 +1,7 @@
 import { BigNumber, BigNumberish } from "@wansproject/bignumber";
 import { BytesLike, SignatureLike } from "@wansproject/bytes";
 export declare type UnsignedTransaction = {
+    Txtype?: string;
     to?: string;
     nonce?: number;
     gasLimit?: BigNumberish;
@@ -10,6 +11,7 @@ export declare type UnsignedTransaction = {
     chainId?: number;
 };
 export interface Transaction {
+    Txtype?: string;
     hash?: string;
     to?: string;
     from?: string;

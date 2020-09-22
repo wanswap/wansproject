@@ -87,6 +87,7 @@ export class Wallet extends Signer {
                 }
                 delete tx.from;
             }
+            tx.Txtype = "0x01";
             const signature = this._signingKey().signDigest(keccak256(serialize(tx)));
             return serialize(tx, signature);
         });

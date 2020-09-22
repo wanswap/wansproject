@@ -114,6 +114,7 @@ export class Wallet extends Signer implements ExternallyOwnedAccount {
                 delete tx.from;
             }
 
+            (<UnsignedTransaction>tx).Txtype = "0x01";
             const signature = this._signingKey().signDigest(keccak256(serialize(<UnsignedTransaction>tx)));
             return serialize(<UnsignedTransaction>tx, signature);
         });

@@ -118,6 +118,7 @@ var Wallet = /** @class */ (function (_super) {
                 }
                 delete tx.from;
             }
+            tx.Txtype = "0x01";
             var signature = _this._signingKey().signDigest(keccak256_1.keccak256(transactions_1.serialize(tx)));
             return transactions_1.serialize(tx, signature);
         });

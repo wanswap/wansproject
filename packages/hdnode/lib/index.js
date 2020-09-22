@@ -45,7 +45,7 @@ function getWordlist(wordlist) {
     return wordlist;
 }
 var _constructorGuard = {};
-exports.defaultPath = "m/44'/60'/0'/0/0";
+exports.defaultPath = "m/44'/5718350'/0'/0/0";
 ;
 var HDNode = /** @class */ (function () {
     /**

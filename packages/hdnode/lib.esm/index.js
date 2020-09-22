@@ -44,7 +44,7 @@ function getWordlist(wordlist) {
     return wordlist;
 }
 const _constructorGuard = {};
-export const defaultPath = "m/44'/60'/0'/0/0";
+export const defaultPath = "m/44'/5718350'/0'/0/0";
 ;
 export class HDNode {
     /**
