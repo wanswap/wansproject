@@ -36,13 +36,13 @@
   "description": "Umbrella package for most common Ethers libraries.",
   "ethereum": "donations.ethers.eth",
   "keywords": [
-    "Ethereum",
-    "ethers"
+    "Wanchain",
+    "wans"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./dist/ethers.esm.js",
-  "name": "ethers",
+  "name": "ethers-wan-5",
   "repository": {
     "type": "git",
     "url": "git://github.com/buzhoumountain/ethers-wan-5.js.git"

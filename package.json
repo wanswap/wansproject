@@ -41,6 +41,8 @@
     "update-versions": "npm run _admin_prepare && node ./admin/cmds/update-versions",
     "update-versions_old": "npm run spell-check && npm run _admin_prepare && node ./admin/cmds/update-versions",
     "publish-all": "node ./admin/cmds/publish",
+    "new-version": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish from-git",
     "sync-github": "node ./admin/cmds/cache-github"
   },
   "devDependencies": {
